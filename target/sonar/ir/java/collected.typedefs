@@ -1,0 +1,6 @@
+Æ
+com.acme.basic.HelloWorld-
+<init>#com.acme.basic.HelloWorld#<init>()V5
+
+notCovered'com.acme.basic.HelloWorld#notCovered()V1
+sayHello%com.acme.basic.HelloWorld#sayHello()Vjava.lang.Object
