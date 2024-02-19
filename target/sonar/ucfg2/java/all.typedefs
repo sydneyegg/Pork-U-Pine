@@ -1,9 +1,8 @@
-˛
+÷
 java.lang.ObjectJ
 equals(Ljava/lang/Object;),java.lang.Object#equals(Ljava/lang/Object;)Z*
 
 finalize()java.lang.Object#finalize()V&
-wait0(J)java.lang.Object#wait0(J)V&
 notify()java.lang.Object#notify()V&
 <init>()java.lang.Object#<init>()V;
 
@@ -16,12 +15,20 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()IÃ
+hashCode()java.lang.Object#hashCode()Iî
 com.acme.basic.HelloWorldjava.lang.Object3
 
-sayHello()%com.acme.basic.HelloWorld#sayHello()V/
+sayHello()%com.acme.basic.HelloWorld#sayHello()V7
+keithTest5()'com.acme.basic.HelloWorld#keithTest5()V/
 <init>()#com.acme.basic.HelloWorld#<init>()V7
-notCovered()'com.acme.basic.HelloWorld#notCovered()V(
+keithTest4()'com.acme.basic.HelloWorld#keithTest4()V7
+keithTest7()'com.acme.basic.HelloWorld#keithTest7()V7
+keithTest6()'com.acme.basic.HelloWorld#keithTest6()V5
+keithTest()&com.acme.basic.HelloWorld#keithTest()V7
+keithTest3()'com.acme.basic.HelloWorld#keithTest3()V7
+notCovered()'com.acme.basic.HelloWorld#notCovered()V7
+keithTest2()'com.acme.basic.HelloWorld#keithTest2()V9
+keithTest12()(com.acme.basic.HelloWorld#keithTest12()V(
 java.lang.Appendablejava.lang.Object+
 java.lang.AutoCloseablejava.lang.Object>
 java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
@@ -39,7 +46,7 @@ sayHello()%com.acme.basic.HelloWorld#sayHello()V/
 flush()#java.io.FilterOutputStream#flush()V0
 write(I)$java.io.FilterOutputStream#write(I)V6
 write([BII)'java.io.FilterOutputStream#write([BII)V.
-close()#java.io.FilterOutputStream#close()VÔ(
+close()#java.io.FilterOutputStream#close()VÎ!
 java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
 	write([C)java.io.PrintStream#write([C)V)
 print(J)java.io.PrintStream#print(J)V-
@@ -48,9 +55,7 @@ println(J)java.io.PrintStream#println(J)V)
 print(F)java.io.PrintStream#print(F)V/
 writeln([C) java.io.PrintStream#writeln([C)V-
 
-println(F)java.io.PrintStream#println(F)Vü
-CimplFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Xjava.io.PrintStream#implFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)VS
-implWrite(Ljava/lang/String;)2java.io.PrintStream#implWrite(Ljava/lang/String;)V/
+println(F)java.io.PrintStream#println(F)V/
 write([BII) java.io.PrintStream#write([BII)VÅ
 4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
 print(Z)java.io.PrintStream#print(Z)V1
@@ -59,25 +64,19 @@ CimplFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Xjava.io.Pr
 println(Z)java.io.PrintStream#println(Z)Vi
 (<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
 write(I)java.io.PrintStream#write(I)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)V{
-1implFormat(Ljava/lang/String;[Ljava/lang/Object;)Fjava.io.PrintStream#implFormat(Ljava/lang/String;[Ljava/lang/Object;)VK
+println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
 print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
 4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)VW
-implWriteln(Ljava/lang/String;)4java.io.PrintStream#implWriteln(Ljava/lang/String;)V-
+print(I)java.io.PrintStream#print(I)V-
 
 println(I)java.io.PrintStream#println(I)V'
-flush()java.io.PrintStream#flush()V3
-implWrite([C)"java.io.PrintStream#implWrite([C)V/
-implFlush() java.io.PrintStream#implFlush()V1
-implWrite(I)!java.io.PrintStream#implWrite(I)V´
+flush()java.io.PrintStream#flush()V´
 ?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
  append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
 toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
 <init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
 	print([C)java.io.PrintStream#print([C)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;3
-implNewLine()"java.io.PrintStream#implNewLine()V)
+"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
 print(D)java.io.PrintStream#print(D)Vq
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
 
@@ -93,25 +92,21 @@ println(D)java.io.PrintStream#println(D)VO
 setError()java.io.PrintStream#setError()Vá
 -printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
 	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)V/
-implClose() java.io.PrintStream#implClose()Vá
+<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
 -format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
 	newLine()java.io.PrintStream#newLine()V)
 print(C)java.io.PrintStream#print(C)V1
 checkError()!java.io.PrintStream#checkError()Z+
 	println()java.io.PrintStream#println()V'
 close()java.io.PrintStream#close()V+
-	write([B)java.io.PrintStream#write([B)V7
-implWriteln([C)$java.io.PrintStream#implWriteln([C)VO
+	write([B)java.io.PrintStream#write([B)VO
 writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V-
 
-println(C)java.io.PrintStream#println(C)V7
-implWrite([BII)$java.io.PrintStream#implWrite([BII)VK
+println(C)java.io.PrintStream#println(C)VK
 write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
 print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
 1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)V5
 writeBytes([B)#java.io.PrintStream#writeBytes([B)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)VD
-	charset()7java.io.PrintStream#charset()Ljava/nio/charset/Charset;/
+<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
 println([C) java.io.PrintStream#println([C)Vã
 9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V

@@ -1,8 +1,0 @@
-#surefire_0
-#Thu Apr 06 11:15:49 CDT 2023
-basedir=/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic
-localRepository=/Users/keith.everitt/.m2/repository
-sonar.host.url=http\://localhost\:9000
-sonar.projectKey=Maven1
-sonar.projectName=Maven1
-sonar.token=sqp_c52d1a3e6f5ee5a767e00c70be2fa4e5848b3a91
