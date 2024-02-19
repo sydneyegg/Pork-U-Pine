@@ -10,8 +10,8 @@ public class HelloWorld {
     System.out.println("This method is not covered by unit tests");
   }
 
-  void sayHello() {
-    System.out.println("Testing!");
+  void keithTest(){
+    System.out.println("Write a log damnit!");
   }
 
 }
