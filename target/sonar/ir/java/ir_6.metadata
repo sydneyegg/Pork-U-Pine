@@ -1,1 +1,4 @@
-com.acme.basic.HelloWorld#keithTest3()V
+com.acme.basic.HelloWorld#keithTest2()V
+05b96bf79dc97ae0d30db8d449f7fcbf
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
