@@ -1,6 +1,8 @@
 package com.acme.basic;
+import java.util.logging.Logger;
 
 public class HelloWorld {
+  Logger logger = Logger.getLogger(getClass().getName());
 
   void sayHello() {
     System.out.println("Hello World!");
@@ -43,6 +45,6 @@ public class HelloWorld {
   }
 
   void keithTest8(){
-    System.out.println("Whoo hoo!");
+    logger.info("Whoo hoo!");
   }
 }
