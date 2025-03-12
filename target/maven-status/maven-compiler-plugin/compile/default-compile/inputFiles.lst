@@ -1,1 +1,4 @@
-/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic/src/main/java/com/acme/basic/HelloWorld.java
+/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic newCode/src/main/java/com/acme/basic/Main.java
+/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic newCode/src/main/java/com/acme/basic/HelloWorld.java
+/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic newCode/src/main/java/com/acme/basic/HelloEarth.java
+/Users/keith.everitt/Documents/Projects/sonar-scanning-examples/sonarqube-scanner-maven/maven-basic newCode/src/main/java/com/acme/basic/HelloPlanet.java

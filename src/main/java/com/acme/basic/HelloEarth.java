@@ -1,6 +1,6 @@
 package com.acme.basic;
 
-public class HelloWorld {
+public class HelloEarth {
 
   void sayHello() {
     System.out.println("Hello World!");

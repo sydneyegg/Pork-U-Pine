@@ -1,6 +1,7 @@
-projectKey=kiloecho-sonar_Maven-Example-1_AYi2VpQ8uxpoDXL0Yr2k
-serverUrl=http://localhost:9900
-serverVersion=9.9.2.77730
-dashboardUrl=http://localhost:9900/dashboard?id=kiloecho-sonar_Maven-Example-1_AYi2VpQ8uxpoDXL0Yr2k
-ceTaskId=AY3CTtYYcCzKmBCpZeRl
-ceTaskUrl=http://localhost:9900/api/ce/task?id=AY3CTtYYcCzKmBCpZeRl
+projectKey=porcupine
+serverUrl=https://ke100.ngrok.io
+serverVersion=10.7.0.96327
+branch=devBranch
+dashboardUrl=https://ke100.ngrok.io/dashboard?id=porcupine&branch=devBranch
+ceTaskId=f78bceff-1399-40e4-a4f1-294ca629a725
+ceTaskUrl=https://ke100.ngrok.io/api/ce/task?id=f78bceff-1399-40e4-a4f1-294ca629a725

@@ -1,1 +1,4 @@
-com.acme.basic.HelloWorld#keithTest()V
+com.acme.basic.HelloWorld#notCovered()V
+d6607fb2eb163bd2c3d731e750800fd1
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

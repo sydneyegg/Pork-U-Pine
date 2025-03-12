@@ -1,2 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Example of basic Maven project,com.acme.basic,HelloWorld,36,7,0,0,18,3,9,2,9,2
+Example of basic Maven project,com.acme.basic,Main,39,0,4,0,6,0,5,0,3,0
+Example of basic Maven project,com.acme.basic,HelloPlanet,11,0,0,0,5,0,3,0,3,0
+Example of basic Maven project,com.acme.basic,HelloWorld,40,7,0,0,20,3,10,2,10,2
+Example of basic Maven project,com.acme.basic,HelloEarth,47,0,0,0,23,0,12,0,12,0
