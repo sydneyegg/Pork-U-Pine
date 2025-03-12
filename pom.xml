@@ -7,7 +7,7 @@
   <artifactId>sonarscanner-maven-basic</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Example of basic Maven project</name>
+  <name>Pork-U-Pine (a maven basic example)</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,12 +35,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>3.13.0</version>
         </plugin>
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.9.1.2184</version>
+          <version>5.0.0.4389</version>
         </plugin>
         <plugin>
           <groupId>org.jacoco</groupId>
