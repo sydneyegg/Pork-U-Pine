@@ -3,5 +3,6 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "SQ 2025.1",
         "projectKey": "porcupine"
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
