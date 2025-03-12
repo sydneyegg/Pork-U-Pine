@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - initBranch
+      - main
+      - dev_branch
   pull_request:
     types: [opened, synchronize, reopened]
 
