@@ -26,9 +26,6 @@ public class HelloWorld {
     System.out.println("Whoo hoo!");
   }
 
-void keithTest8(){
-    System.out.println("Whoo hoo!");
-  }
   void keithTest4(){
     System.out.println("Safety Third!");
   }
@@ -45,4 +42,7 @@ void keithTest8(){
     System.out.println("Look another test!");
   }
 
+  void keithTest8(){
+    System.out.println("Whoo hoo!");
+  }
 }
