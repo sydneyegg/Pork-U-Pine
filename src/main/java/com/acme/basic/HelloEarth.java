@@ -1,5 +1,10 @@
 package com.acme.basic;
 
+import java.sql.Connection;
+import java.sql.ResultSet;
+import javax.servlet.http.HttpServletRequest;
+import java.sql.Statement;
+
 public class HelloEarth {
 
   void sayHello() {
@@ -41,8 +46,6 @@ void keithTest8(){
     System.out.println("Test #6!");
   }
 
-  void keithTest7(){
-    System.out.println("Look another test!");
-  }
+
 
 }

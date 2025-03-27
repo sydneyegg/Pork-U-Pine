@@ -1,8 +1,8 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
     "sonarlint.connectedMode.project": {
         "connectionId": "SQ 2025.1",
-        "projectKey": "porcupine"
-    },
-    "java.configuration.updateBuildConfiguration": "interactive"
+        "projectKey": "kiloecho-sonar_Pork-U-Pine"
+    }
 }
