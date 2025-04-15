@@ -15,6 +15,10 @@ public class HelloEarth {
     System.out.println("This method is not covered by unit tests");
   }
 
+  void mentorTest(){
+    System.out.println("Write a log damnit!");
+  }
+
   void keithTest(){
     System.out.println("Write a log damnit!");
   }
