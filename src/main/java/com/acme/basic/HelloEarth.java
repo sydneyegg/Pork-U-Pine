@@ -19,7 +19,7 @@ public class HelloEarth {
     System.out.println("Write a log damnit!");
   }
 
-  void keithTest(){
+  void sydneytest(){
     System.out.println("Write a log damnit!");
   }
 
